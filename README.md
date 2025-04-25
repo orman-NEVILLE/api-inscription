@@ -54,3 +54,35 @@ Echec :
 {
   "message": "Étudiant non trouvé"
 }
+
+3. Ajout d'un nouvel étudiant
+Permet d'ajouter un étudiant dans la base de données.
+URL :https://api-service-inscription.onrender.com/getStudent.php
+Méthode : POST
+Données (JSON) :
+
+{
+  "nom": "Dupont",
+  "postNom": "Jean",
+  "preNom": "Pierre",
+  "date_naissance": "2000-01-01",
+  "option": "Informatique",
+  "pourcentage_obtenu": 85,
+  "genre": "M",
+  "lieu_naissance": "Paris",
+  "nationalite": "Française"
+}
+
+Exemple de réponse :
+Succès :
+{
+  "success": true,
+  "message": "Étudiant ajouté avec succès"
+}
+
+Echec : 
+
+{
+  "success": false,
+  "message": "Champs manquants ou invalides"
+}
