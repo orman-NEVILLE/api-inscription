@@ -55,7 +55,7 @@ Echec :
   "message": "Étudiant non trouvé"
 }
 
-3. Ajout d'un nouvel étudiant
+## 3. Ajout d'un nouvel étudiant
 Permet d'ajouter un étudiant dans la base de données.
 URL :https://api-service-inscription.onrender.com/getStudent.php
 Méthode : POST
